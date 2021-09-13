@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be Strong</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<style>
+    /* reset css */
+    body {
+        font-family: 'Baloo Bhai 2', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/backgnd.jpg');
+        background-size: 1519px;
+        height: 800px;
+        background-repeat: no-repeat;
+    }
+
+    .left {
+        display: inline-block;
+        border: 3px solid red;
+        border-radius: 6px;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    }
+
+    .left img {
+        width: 105px;
+        height: 94px;
+
+    }
+
+    .left div {
+        line-height: 13px;
+        font-size: 15px;
+        text-align: center;
+       
+    }
+
+    .mid {
+        display: block;
+        width: 39%;
+        margin: 20px auto;
+        border: 3px solid rgb(217, 255, 0);
+       
+    }
+
+    .right {
+        display: inline-block;
+        position: absolute;
+        right: 34px;
+        top: 0px;
+        border: 3px solid skyblue;
+        margin: 20px auto;
+      
+    }
+
+    .btn {
+        color: white;
+        margin: 0px 9px;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 14px;
+        font-family: 'Baloo Bhai 2', cursive;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(48, 53, 54);
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .container {
+        border: 3px solid white;
+        padding: 35px 14px;
+        margin: 94px 59px;
+        width: 23%;
+        border-radius: 17px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 228px;
+        padding: 4px 20px;
+        margin: 6px auto;
+        border: 2px solid rgb(107, 202, 231);
+        border-radius: 4px;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-size: 10px;
+
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .container button {
+        display: block;
+        width: 37%;
+        margin: auto;
+    }
+
+    .motivation p {
+        text-align: center;
+        border: 2px solid grey;
+        margin: -137px 440px auto;
+        padding: 8px 52px;
+    }
+</style>
+
+<body>
+
+
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/images (1).png" alt="">
+
+            <div>Be Strong</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!--  right box for buttons-->
+        <div class="right">
+            <button class="btn">Call us now</button><button class="btn">Email</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of India</h1>
+        <form action="no action.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your full name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender-male/female/other">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Contact No">
+            </div>
+            <div>
+                <button class="btn">Submit now </button>
+            </div>
+        </form>
+    </div>
+    <div class="motivation">
+        <p>Physical fitness is not only one of the most important keys to a healthy body,
+            it is the basis of dynamic and creative intellectual activity.</p>
+    </div>
+</body>
+
+</html>
